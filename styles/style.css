@@ -2,3 +2,84 @@
     margin: 0;
     padding: 0;
 }
+/* shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-flex{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
+.skyblue-color{
+    color: skyblue;
+}
+.skyblue-color-another{
+    color: #05D4DF;
+}
+.blue-color{
+    color: #5D58EF;
+}
+
+
+/* navbar styles */
+.navbar{
+    margin: 20px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    align-items: center;
+    gap: 11px;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+.nav-right ul{
+    align-items: center;
+    gap: 32px;
+}
+.nav-right ul li{
+    display: block;
+}
+.nav-right ul li a{
+    text-decoration: none;
+}
+.nav-btn{
+    color: white;
+    background-color: orange;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+}
+#nav-icon{
+    display: none;
+}
+
+
+
+
+/* media query for small device */
+@media screen and (max-width: 576px) {
+    .navbar{
+        margin: 10px 20px;
+    }
+    .nav-title, .nav-right, .nav-btn{
+        display: none;
+    }
+    #nav-icon{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}

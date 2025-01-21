@@ -20,7 +20,7 @@
     color: orange;
 }
 .skyblue-color{
-    color: skyblue;
+    color: #01ACFD;
 }
 .skyblue-color-another{
     color: #05D4DF;
@@ -28,7 +28,24 @@
 .blue-color{
     color: #5D58EF;
 }
-
+.bg-color{
+    background-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+}
+.bg-color2{
+    background-image: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+}
+.bg-color3{
+    background-image: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+}
+.btn-color{
+    color: #64C8FF;
+}
+.btn-color2{
+    color: #F0AA00;
+}
+.btn-color3{
+    color: #8700FF;
+}
 
 /* navbar styles */
 .navbar{
@@ -93,7 +110,89 @@
     border-radius: 12px;
     padding: 10px 47px;
 }
+/* curriculm section style */
+main{
+    background-image: url(../assets/bg.png);
+}
 
+.Curriculum{
+    margin: 80px 207px;
+    margin-left: 140px;
+}
+.curriculum-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 2.875rem;
+    font-weight: bold;
+    line-height: 57.5px;
+}
+.box-container{
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.box{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 367.8px;
+    height: 476.78px;
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px 0.94px;
+}
+.box-img{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+
+
+.box-title{
+    font-size: 1.5325rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+.box-description{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28.3px;
+    margin: 32px 50px;
+    
+}
+.box-btn{
+    margin-bottom: 53px;
+    border: none;
+    background-color: white;
+
+}
+.arrow{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.arrow-btn-left{
+    border: none;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    font-weight: solid;
+    line-height: 24px;
+    padding: 17px 22.13px 19px 22.5px;
+    color: #FFFFFF;
+    background-color: #F0AA00;
+}
+.arrow-btn-right{
+    border: none;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    font-weight: solid;
+    line-height: 24px;
+    padding: 17px 22.13px 19px 22.5px;
+    color: #FFFFFF;
+    background-color: #01ACFD;
+}
 
 
 
@@ -127,6 +226,18 @@
     }
     .banner-container{
         text-align: center;
+    }
+    .curriculum-title{
+        text-align: center;
+    }
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .arrow{
+        display: none;
     }
 
 }

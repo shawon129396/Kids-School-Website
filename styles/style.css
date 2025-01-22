@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* shared styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
@@ -12,14 +13,17 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .display-flex {
   display: flex;
 }
+
 .mixed-radius {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   width: 100%;
 }
+
 .btn-1 {
   height: 38px;
   position: relative;
@@ -33,6 +37,7 @@
   background-color: #95b226;
   padding: 9px 18px 10px 19px;
 }
+
 .btn-2 {
   height: 38px;
   position: relative;
@@ -46,6 +51,7 @@
   background-color: #5d58f0;
   padding: 9px 18px 10px 19px;
 }
+
 .btn-3 {
   position: relative;
   top: -130px;
@@ -58,6 +64,7 @@
   background-color: #95b226;
   padding: 9px 18px 10px 19px;
 }
+
 .btn-4 {
   position: relative;
   top: -130px;
@@ -70,6 +77,7 @@
   background-color: #95b226;
   padding: 9px;
 }
+
 .space-btn {
   margin: 80px 621px 60px 480px;
   text-wrap: nowrap;
@@ -79,30 +87,39 @@
 .orange-color {
   color: orange;
 }
+
 .skyblue-color {
   color: #01acfd;
 }
+
 .skyblue-color-another {
   color: #05d4df;
 }
+
 .blue-color {
   color: #5d58ef;
 }
+
 .bg-color {
   background-image: linear-gradient(to bottom, #def5ff, #ffffff);
 }
+
 .bg-color2 {
   background-image: linear-gradient(to bottom, #fff4dc, #ffffff);
 }
+
 .bg-color3 {
   background-image: linear-gradient(to bottom, #f2e8ff, #ffffff);
 }
+
 .btn-color {
   color: #64c8ff;
 }
+
 .btn-color2 {
   color: #f0aa00;
 }
+
 .btn-color3 {
   color: #8700ff;
 }
@@ -113,26 +130,32 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-left {
   align-items: center;
   gap: 11px;
 }
+
 .nav-title {
   color: black;
   font-size: 2rem;
   font-weight: bold;
   line-height: 30px;
 }
+
 .nav-right ul {
   align-items: center;
   gap: 32px;
 }
+
 .nav-right ul li {
   display: block;
 }
+
 .nav-right ul li a {
   text-decoration: none;
 }
+
 .nav-btn {
   color: white;
   background-color: orange;
@@ -140,6 +163,7 @@
   border: none;
   border-radius: 12px;
 }
+
 #nav-icon {
   display: none;
 }
@@ -151,18 +175,21 @@
   align-items: center;
   gap: 50px;
 }
+
 .banner-title {
   font-size: 3.5rem;
   font-weight: bold;
   line-height: 61px;
   margin-bottom: 24px;
 }
+
 .banner-description {
   font-size: 1.25rem;
   font-weight: 400px;
   line-height: auto;
   margin-bottom: 24px;
 }
+
 .banner-btn {
   color: white;
   background-color: black;
@@ -170,6 +197,7 @@
   border-radius: 12px;
   padding: 10px 47px;
 }
+
 /* curriculm section style */
 main {
   background-image: linear-gradient(#ffffff, #ffffff, rgba(254, 163, 1, 1));
@@ -180,6 +208,7 @@ main {
   margin: 80px 207px;
   margin-left: 140px;
 }
+
 .curriculum-title {
   text-align: center;
   margin-top: 60px;
@@ -188,11 +217,13 @@ main {
   font-weight: bold;
   line-height: 57.5px;
 }
+
 .box-container {
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
+
 .box {
   flex-direction: column;
   justify-content: space-evenly;
@@ -202,6 +233,7 @@ main {
   width: 100%;
   height: 100%;
 }
+
 .box-img {
   margin-top: 52px;
   margin-bottom: 32px;
@@ -213,6 +245,7 @@ main {
   font-weight: bold;
   line-height: 30px;
 }
+
 .box-description {
   color: #808080;
   font-size: 1rem;
@@ -220,11 +253,13 @@ main {
   line-height: 28.3px;
   margin: 32px 50px;
 }
+
 .box-btn {
   margin-bottom: 53px;
   border: none;
   background-color: white;
 }
+
 .arrow {
   justify-content: center;
   align-items: center;
@@ -232,6 +267,7 @@ main {
   margin-top: 80px;
   margin-bottom: 60px;
 }
+
 .arrow-btn-left {
   border: none;
   border-radius: 30px;
@@ -242,6 +278,7 @@ main {
   color: #ffffff;
   background-color: #f0aa00;
 }
+
 .arrow-btn-right {
   border: none;
   border-radius: 30px;
@@ -252,6 +289,7 @@ main {
   color: #ffffff;
   background-color: #01acfd;
 }
+
 /* card section styles */
 
 .our-stories {
@@ -259,6 +297,7 @@ main {
   margin-left: 140px;
   margin-right: 140px;
 }
+
 .stories-title {
   text-align: center;
   margin-top: 60px;
@@ -267,30 +306,36 @@ main {
   font-weight: bold;
   line-height: 57.5px;
 }
+
 .card-container {
   gap: 19px;
 }
+
 .grid-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18.87px;
 }
+
 .card-big {
   background-color: #ffffff;
   border: none;
   border-radius: 16px;
 }
+
 .card {
   background-color: #ffffff;
   border: none;
   border-radius: 16px;
 }
+
 .card-title-big {
   margin: 58px 38px 47px 38px;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 38.3px;
 }
+
 .card-description-big {
   font-size: 1rem;
   font-weight: 400px;
@@ -298,6 +343,7 @@ main {
   color: #666666;
   margin: 47px 68px 34px 38px;
 }
+
 .card-btn-big {
   border: none;
   border-radius: 47.93px;
@@ -305,6 +351,7 @@ main {
   background-color: #3cd8e8;
   padding: 9px 18px 10px 19px;
 }
+
 .card-big button {
   position: relative;
   top: -260px;
@@ -312,6 +359,7 @@ main {
   bottom: 368.44px;
   left: 38.35px;
 }
+
 .card-title {
   font-size: 1rem;
   font-weight: bold;
@@ -329,67 +377,81 @@ main {
   margin-bottom: 40px;
   margin-top: 12px;
 }
+
 /* footer section */
-footer{
+footer {
   background-color: #01ACFD;
   padding: 123px 128px 174px 140px;
 }
-.structure{
-  padding: 123px 128px 174px 140px;
-  align-items: center;
-  justify-content: space-between;
+
+.structure {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
 }
-.foot-left{
-  justify-content: center;
+
+.foot-left {
   align-items: center;
   gap: 10.7px;
 }
-.foot-left-title{
+
+.foot-left-title {
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 39px;
   color: #ffffff;
 }
-.foot-middle-title{
+
+.foot-middle-title {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: auto;
   color: #ffffff;
   padding-bottom: 32px;
 }
-.foot-middle ul li{
+
+.foot-middle ul li {
   display: block;
 }
-.foot-middle ul li a{
+
+.foot-middle ul li a {
   text-decoration: unset;
   color: #ffffff;
 }
-.foot-middle ul{
+
+.foot-middle ul {
   flex-direction: column;
   gap: 20px;
-  
+
 }
-.foot-right-title{
+
+.foot-right-title {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 26px;
   color: #ffffff;
   padding-bottom: 32px;
 }
-.foot-right ul li{
+
+.foot-right ul li {
   display: block;
 }
-.foot-right ul{
+
+.foot-right ul {
   gap: 10px;
 }
-.foot-left-description{
+
+.foot-left-description {
   color: #ffffff;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: auto;
-  position: relative;
+  margin-top: 35px;
+  /* position: relative;
   top: 110px;
-  left: -250px;
+  left: -250px; */
+}
+.direction-column{
+  gap: 10px;
 }
 
 
@@ -400,11 +462,13 @@ footer{
     padding: 10px 10px;
     border-bottom: 1px solid orange;
   }
+
   .nav-title,
   .nav-right,
   .nav-btn {
     display: none;
   }
+
   #nav-icon {
     font-size: 30px;
     margin-top: 10px;
@@ -419,25 +483,31 @@ footer{
     flex-direction: column-reverse;
     margin: 20px 10px;
   }
+
   .banner-image img {
     width: 336px;
     height: 413px;
   }
+
   br {
     display: none;
   }
+
   .banner-container {
     text-align: center;
   }
+
   .curriculum-title {
     text-align: center;
   }
+
   .box-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 16.5px;
   }
+
   .arrow {
     display: none;
   }
@@ -461,13 +531,16 @@ footer{
   .our-stories {
     margin: 0 16px;
   }
+
   .stories-titl {
     margin: 40px 124px;
     text-wrap: nowrap;
   }
+
   .card-big {
     display: none;
   }
+
   .grid-card {
     width: 100%;
     gap: 11px;
@@ -476,6 +549,7 @@ footer{
   .card-title {
     padding: 30px 12px 12px 12px;
   }
+
   .card-container {
     flex-direction: column;
   }
@@ -492,47 +566,30 @@ footer{
     /* top: -125px; */
     /* left: 10px; */
   }
-  .structure{
-  align-items: left;
-  justify-content: left;
+  /* footer section */
+  footer{
+    padding: 60px 20px;
   }
-  .foot-left{
-    flex-direction: row;
-    position: relative;
-    margin-top: -400px;
-    left: -270px;
-    /* padding-top: -100px; */
+
+  .structure {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
-  
-  
+  .foot-left-description {
+    margin-top: 10px;
+  }
   .foot-left-title br{
     display: block;
   }
-  .foot-left-description br{
-    display: block;
-  }
-  .foot-left-description{
-    position: relative;
-    /* margin-left: 50px;
-    padding-right: -12px; */
-  }
   
-  .foot-left, .direction-column{
-    gap: 0;
-  }
-  .foot-middle{
-    position: relative;
-    top: 70px;
-    left: -500px;
-  }
-  .foot-middle ul{
-    flex-direction: column;
-  }
-  .foot-right{
-    position: relative;
-    top: 250px;
-    left: -570px;
-  }
+
+  
+
+
+
+
+  
+
   
   
 
